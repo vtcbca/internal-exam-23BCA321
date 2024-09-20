@@ -1,0 +1,27 @@
+# Create BCA.txt. Write 5 lines directly and 5 lines must be taken from user. Print the smallest and largest word in this file.
+f=open("D:\\319bca\\sqlite3\\deta\\bca.txt","w")
+f.write("this is a semple file,\n")
+f.write("it contains 5 lins directiy,\n")
+f.write("and 5 lins from two user,\n")
+f.write("it contains 5 lins directiy,\n")
+f.write("and 5 lins from two user,\n")
+f.write("the smellest and inrcest words will be printed,\n")
+f.write("the file is created by bca student,\n")
+l=[]
+# take 5 input from user
+for i in range(5):
+    s=input("entar motence from user")
+    l.append(s)
+entar motence from user1234
+entar motence from user45667
+entar motence from user687809
+entar motence from user5876890
+entar motence from user56786870
+f=open("D:\\319bca\\sqlite3\\deta\\bca.txt","r")
+lines=f.readlines()
+words=[]
+lines=f.readlines()
+for line in lines:
+    word.extend(line.strip().split())
+### smallest word in file
+smallest_word = min(words, key=len)
