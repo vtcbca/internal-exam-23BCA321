@@ -1,0 +1,27 @@
+f.write("the smellest and inrcest words will be printed,\n")
+f.write("the file is created by bca student,\n")
+l=[]
+# take 5 input from user
+for i in range(5):
+    s=input("entar motence from user")
+    l.append(s)
+entar motence from user1234
+entar motence from user45667
+entar motence from user687809
+entar motence from user5876890
+entar motence from user56786870
+f=open("D:\\319bca\\sqlite3\\deta\\bca.txt","r")
+lines=f.readlines()
+words=[]
+lines=f.readlines()
+for line in lines:
+    word.extend(line.strip().split())
+### smallest word in file
+smallest_word = min(line, key=len)
+print("smallest woed:",smallest_word)
+smallest woed: t
+largest word in file
+largest_word = max(line,key=len)
+print("largest_word :",largest_word )
+largest_word : t
+f.close()
